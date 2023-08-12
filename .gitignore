@@ -1,0 +1,53 @@
+
+# Rust/Cargo generated files
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Dependency directories
+# Remove any that you don't use or need
+/.idea/
+/.vscode/
+/.env
+/.venv
+/.deps
+/.cache
+/.sass-cache
+/.tmp
+/.nyc_output
+/.parcel-cache
+/.next/
+/dist/
+/node_modules/
+/www/
+/vendor/
+
+# Build artifacts and executables
+# Release builds
+/release/
+
+# Other
+.rustc_info.json
+
+# IDE and editor files (optional, adjust as needed)
+# These are often ignored if you're using a specific IDE/editor
+.idea/
+.vscode/
+
+# Editor-specific temporary files
+# Add here any other editor temporary files you want to ignore
+*.swp
+*.swo
+
+# Compiled binary files (add more if necessary)
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Mac OS specific files
+.DS_Store
+
+# Generated documentation (optional)
+/doc/
+/target/doc/
